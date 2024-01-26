@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body, html{
+    background-color: cadetblue;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+h4{
+    font-size: 1.5rem;
+    mask-border: .5rem;
+    font-family: inherit;
+    line-height: 1.2;
+    text-transform:capitalize ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+width: 600px;
+background-color: #fff
+;
+padding: 25px 30px;
+border-radius: 10px;
+box-shadow: 5px  5px 20px rgb(0,0,0,0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+}
+
+form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid  cadetblue;
+
+}
+
+form input.box{
+width: 500px;
+height: 40px;
+font-size: 1.2rem;
+padding: o 10px;
+}
+form input.button{
+    font-size: 1 rem;
+    padding: 12px 20px;
+    background-color:  cadetblue;
+    color: #fff;
+    font-weight: 500;
+    cursor: poin;
+}
+h5{
+    background-color: #ffD4CD;
+    font-size: 1.5 rem;
+    width: 100%;
+    padding: 10px 0;
+
+}
+h4{
+    font-size:2 rem ;
+}
+
+.feedback{
+    position:none;
+}
+.show{
+    display: block;
+}
+
+.message-content{
+    color:#4B830A ;
+}
